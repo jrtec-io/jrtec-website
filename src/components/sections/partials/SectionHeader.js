@@ -44,11 +44,11 @@ const SectionHeader = ({
               <Component className={
                 classNames(
                   'mt-0',
-                  data.paragraph ? 'mb-16' : 'mb-0'
+                  data.paragraph ? 'mb-1' : 'mb-0'
                 )}>{data.title}</Component>
             }
             {data.paragraph &&
-              <p className="m-0">{data.paragraph}</p>
+              <p className="m-1">{data.paragraph} </p>
             }
           </div>
         </div>
