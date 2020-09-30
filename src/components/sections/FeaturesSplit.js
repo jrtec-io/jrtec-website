@@ -87,6 +87,7 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item">
                 <Image
                   src={require('./../../assets/images/tech1.png')}
+                  className="has-shadow"
                   alt="Features split 01"
                   width={300}
                   height={300} />
@@ -113,6 +114,7 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item">
                 <Image
                   src={require('./../../assets/images/tech3.png')}
+                  className="has-shadow"
                   alt="Features split 02"
                   width={300}
                   height={300} />
