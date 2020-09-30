@@ -86,10 +86,10 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
+                  src={require('./../../assets/images/tech1.png')}
                   alt="Features split 01"
-                  width={528}
-                  height={396} />
+                  width={300}
+                  height={300} />
               </div>
             </div>
 
@@ -112,10 +112,10 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
+                  src={require('./../../assets/images/tech3.png')}
                   alt="Features split 02"
-                  width={528}
-                  height={396} />
+                  width={300}
+                  height={300} />
               </div>
             </div>
 
@@ -138,10 +138,10 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
+                  src={require('./../../assets/images/tech4.png')}
                   alt="Features split 03"
-                  width={528}
-                  height={396} />
+                  width={300}
+                  height={300} />
               </div>
             </div>
 
@@ -166,10 +166,10 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
+                  src={require('./../../assets/images/tech2.png')}
                   alt="Features split 02"
-                  width={528}
-                  height={396} />
+                  width={300}
+                  height={300} />
               </div>
             </div>
 

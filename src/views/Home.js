@@ -16,8 +16,6 @@ const Home = () => {
       <Strenghts className="illustration-section-01" />
       <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
       <Testimonial topDivider />
-      
-      <Cta split />
     </>
   );
 }
