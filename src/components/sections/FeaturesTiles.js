@@ -12,6 +12,7 @@ const defaultProps = {
   ...SectionTilesProps.defaults
 }
 const FeaturesTiles = ({
+
   className,
   topOuterDivider,
   bottomOuterDivider,
@@ -48,6 +49,8 @@ const FeaturesTiles = ({
     paragraph: 'JRTEC is a consultancy and technology agency. At JRTEC we help our clients to convert their ideas into technology products and services quickly and efficiently. Through our work, we seek to facilitate the process of technology transfer. We provide solutions adapted to the needs of our customers according to the trends by taking advantage of both hardware and software worlds. Our strategy is aimed at the development of proof of concepts using innovative technologies with high added value.'
   };
 
+
+
   return (
     <section
       {...props}
@@ -56,6 +59,7 @@ const FeaturesTiles = ({
       <div className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
+  
           <div className={tilesClasses}>
 
             <div className="tiles-item reveal-from-bottom">
@@ -101,8 +105,7 @@ const FeaturesTiles = ({
                 </div>
               </div>
             </div>
-
-
+            
           </div>
         </div>
       </div>
