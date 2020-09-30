@@ -1,6 +1,8 @@
 # Free React landing page template
 
-vercel website: https://jrtec-website.vercel.app/
+website: jrtec.io
+deploy on aws: https://medium.com/dailyjs/a-guide-to-deploying-your-react-app-with-aws-s3-including-https-a-custom-domain-a-cdn-and-58245251f081
+
 
 ![Open React template preview](https://user-images.githubusercontent.com/2683512/78789364-545e7100-79ad-11ea-9e3c-9528c99cda8e.png)
 
