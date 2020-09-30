@@ -61,10 +61,10 @@ const Hero = ({
 
               <Image
                 className="has-shadow"
-                src={require('./../../assets/images/video-placeholder.jpg')}
+                src={require('./../../assets/images/portada.png')}
                 alt="Hero"
-                width={896}
-                height={504} />
+                width={600}
+                height={600} />
 
           </div>
         </div>
