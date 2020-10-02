@@ -67,10 +67,10 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
+                      src={require('./../../assets/images/con.png')}
                       alt="Features tile icon 01"
-                      width={64}
-                      height={64} />
+                      width={80}
+                      height={80} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
@@ -89,10 +89,10 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-02.svg')}
+                      src={require('./../../assets/images/poc.png')}
                       alt="Features tile icon 02"
-                      width={64}
-                      height={64} />
+                      width={80}
+                      height={80} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
