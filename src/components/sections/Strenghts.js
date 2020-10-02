@@ -3,6 +3,8 @@ import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
 import Image from '../elements/Image';
 
+import SectionHeader from './partials/SectionHeader';
+
 const propTypes = {
   ...SectionProps.types
 }
@@ -11,7 +13,12 @@ const defaultProps = {
   ...SectionProps.defaults
 }
 
-const Hero = ({
+
+const sectionHeader = {
+  title: 'Strengths',
+  };
+
+const Strenghts = ({
   className,
   topOuterDivider,
   bottomOuterDivider,
@@ -21,6 +28,7 @@ const Hero = ({
   invertColor,
   ...props
 }) => {
+
 
 
 
@@ -39,7 +47,6 @@ const Hero = ({
     bottomDivider && 'has-bottom-divider'
   );
 
-
   return (
     <section
       {...props}
@@ -47,33 +54,24 @@ const Hero = ({
     >
       <div className="container-sm">
         <div className={innerClasses}>
-          <div className="hero-content">
-            <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              Technology Development Agency
-            </h1>
-            <div className="container-xs">
-              <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                  "We are just rethinking technology"
-              </p>    
-            </div>
-          </div>
-          <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
-
+        <SectionHeader data={sectionHeader} className="center-content" />
+          <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="00">
+           
               <Image
                 className="has-shadow"
-                src={require('./../../assets/images/portada.png')}
+                src={require('./../../assets/images/tools.png')}
                 alt="Hero"
-                width={600}
-                height={600} />
-
+                width={896}
+                height={504} />
           </div>
+
         </div>
       </div>
     </section>
   );
 }
 
-Hero.propTypes = propTypes;
-Hero.defaultProps = defaultProps;
+Strenghts.propTypes = propTypes;
+Strenghts.defaultProps = defaultProps;
 
-export default Hero;
+export default Strenghts;
